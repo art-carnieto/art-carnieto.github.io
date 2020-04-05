@@ -1,5 +1,5 @@
 ---
-lang: pt-br
+lang: pt-BR
 ---
 # Olá Mundo! Seja bem-vindo ao meu blog.
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
           {% if page.lang == "en" %}
             <li class="flag"><a href="/pt-br/"><img src="/assets/images/pt-br_flag.png" alt="PT / BR flag" width="20" height="20" align="center"> Português</a></li>
           {% endif %}
-          {% if page.lang == "pt-br" %}
+          {% if page.lang == "pt-BR" %}
             <li class="flag"><a href="/en/"><img src="/assets/images/us-uk_flag.png" alt="USA / UK flag" width="20" height="20" align="center"> English</a></li>
           {% endif %}
           {% if site.show_downloads %}

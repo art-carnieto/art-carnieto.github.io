@@ -2,8 +2,9 @@
 layout: default
 ---
 <script type="text/javascript">
-	var local_lang = navigator.language;
-	if(local_lang == "pt" || local_lang == "pt-br" || local_lang == "pt-BR")
+	var local_lang = navigator.language;		//browser configured lang
+	var langFistTwo = local_lang.substr(0,2);	//first two letters
+	if(langFistTwo == "pt")
 		window.location = '/pt-br/';
 	else
 		window.location = '/en/';
