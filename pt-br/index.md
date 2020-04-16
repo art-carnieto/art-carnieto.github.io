@@ -5,4 +5,6 @@ lang: pt-BR
 
 Esse é o meu blog de desenvolvimento, para mostrar meus projetos e postar sobre eles, e também um blog pessoal para falar da minha vida no dia a dia e talvez filosofar um pouco.
 
-{% include nav_buttons.html %}
+{% include nav_buttons.html %} <br>
+
+{% include social_networks_pt-br.md %}
